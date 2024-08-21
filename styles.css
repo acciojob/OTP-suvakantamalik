@@ -1,6 +1,6 @@
 /*  your css code here. If applicable */
 
-.code-container{
+.container{
 	width: 95%;
 	height: 100%;
 	border: 2px solid black;
@@ -19,5 +19,15 @@ input{
 	margin-right: 0.3rem;
 	margin-bottom: 2rem;
 	text-align: center;
-	font-size: 40px;
+	font-size: 2.5rem;
+	border-radius: 0.625rem;
+	border-width: 0.006rem;
+}
+input[type="number"] {
+    -moz-appearance: textfield;
+}
+input[type="number"]::-webkit-outer-spin-button,
+    input[type="number"]::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
 }
