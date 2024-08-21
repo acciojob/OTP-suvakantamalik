@@ -1,1 +1,23 @@
 /*  your css code here. If applicable */
+
+.code-container{
+	width: 95%;
+	height: 100%;
+	border: 2px solid black;
+	padding: 0.5rem;
+	text-align: center;
+	border-radius: 10px;
+}
+p{
+	font-size: 13px;
+	margin-bottom: 2rem
+}
+input{
+	width: 4rem;
+	height: 5rem;
+	margin-left: 0.3rem;
+	margin-right: 0.3rem;
+	margin-bottom: 2rem;
+	text-align: center;
+	font-size: 40px;
+}
